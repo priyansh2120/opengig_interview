@@ -3,7 +3,7 @@ import axios from 'axios';
 import TaskForm from './TaskForm';
 import TaskItem from './TaskItem';
 
-const API_URL = "http://localhost:3002/tasks/";
+const API_URL = "https://opengig-interview.onrender.com/tasks/";
 
 const TaskList = () => {
     const [tasks, setTasks] = useState([]);
